@@ -33,5 +33,4 @@ else:
         for j in range(0, column_B):
             for k in range(0, column_A):
                 C[i][j] += A[i][k] * B[k][j]
-
     print(C)
